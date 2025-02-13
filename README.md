@@ -1,4 +1,4 @@
-# Hand gesture recognition using ML
+# Hand gesture recognition using CNN
 
 This repository contains a Convolutional Neural Network (CNN) model for recognizing hand gestures based on the Sign MNIST dataset. The model is trained to classify different hand signs commonly used in sign language.
 
