@@ -18,13 +18,13 @@ The dataset used for training and testing is the Sign MNIST dataset, which consi
 
 The CNN model follows a standard deep learning architecture with convolutional layers, pooling layers, and fully connected layers. The key components include:
 
-Convolutional Layers: Extracts spatial features from images.
+-Convolutional Layers: Extracts spatial features from images.
 
-Max Pooling Layers: Reduces dimensionality while preserving important features.
+-Max Pooling Layers: Reduces dimensionality while preserving important features.
 
-Fully Connected Layers: Classifies the extracted features into different hand gesture categories.
+-Fully Connected Layers: Classifies the extracted features into different hand gesture categories.
 
-Activation Functions: Uses ReLU for hidden layers and Softmax for output classification.
+-Activation Functions: Uses ReLU for hidden layers and Softmax for output classification.
 
 ## Requirements
 
