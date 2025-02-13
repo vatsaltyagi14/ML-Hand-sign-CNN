@@ -25,3 +25,9 @@ Max Pooling Layers: Reduces dimensionality while preserving important features.
 Fully Connected Layers: Classifies the extracted features into different hand gesture categories.
 
 Activation Functions: Uses ReLU for hidden layers and Softmax for output classification.
+
+## Requirements
+
+To run this project, install the following dependencies:
+
+- pip install tensorflow numpy pandas matplotlib seaborn
