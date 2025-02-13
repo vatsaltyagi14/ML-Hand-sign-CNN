@@ -12,7 +12,7 @@ The dataset used for training and testing is the Sign MNIST dataset, which consi
 
 <ins>sign_mnist_train.csv </ins>: Training data containing labeled images of hand gestures. (we have uploaded the dataset in two halves for the sake of uploading convinience.)
 
-sign_mnist_test.csv: Testing data to evaluate model performance.
+<ins>sign_mnist_test.csv </ins>: Testing data to evaluate model performance.
 
 ## Model Architecture
 
