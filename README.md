@@ -31,3 +31,7 @@ Activation Functions: Uses ReLU for hidden layers and Softmax for output classif
 To run this project, install the following dependencies:
 
 - pip install tensorflow numpy pandas matplotlib seaborn
+
+## Results
+
+The trained model achieves high accuracy in recognizing hand gestures. The results are visualized using confusion matrices and accuracy plots.
