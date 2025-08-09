@@ -1,1 +1,23 @@
+
 @import "tailwindcss";
+
+
+@theme {
+  --font-sans: "Poppins", sans-serif;
+
+  --color-brand-indigo: #0D1B3F;
+  --color-brand-gray: #5A647B;
+  --color-brand-pink: #FAD0E6;
+  --color-brand-blue: #B8D0F3;
+  --color-brand-accent: #4A90E2;
+
+  --background-image-gradient-main: linear-gradient(135deg, var(--color-brand-pink) 0%, var(--color-brand-blue) 100%);
+}
+
+
+@layer base {
+  body {
+    background-image: var(--background-image-gradient-main);
+    font-family: var(--font-sans);
+  }
+}
