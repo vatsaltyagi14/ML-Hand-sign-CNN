@@ -1,37 +1,36 @@
-# Hand gesture recognition using Convolutional Neural Networks
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-This repository contains a Convolutional Neural Network (CNN) model for recognizing hand gestures based on the Sign MNIST dataset. The model is trained to classify different hand signs commonly used in sign language.
+## Getting Started
 
-## Project Overview
+First, run the development server:
 
-Hand gesture recognition is an essential application of computer vision, enabling interaction between humans and machines. In this project, we use a deep learning approach with CNNs to classify images of hand signs accurately.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## Dataset
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-The dataset used for training and testing is the Sign MNIST dataset, which consists of labeled grayscale images of hand gestures. The dataset is structured as follows:
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-<ins>sign_mnist_train.csv </ins>: Training data containing labeled images of hand gestures. (we have uploaded the dataset in two halves for the sake of uploading convinience.)
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-<ins>sign_mnist_test.csv </ins>: Testing data to evaluate model performance.
+## Learn More
 
-## Model Architecture
+To learn more about Next.js, take a look at the following resources:
 
-The CNN model follows a standard deep learning architecture with convolutional layers, pooling layers, and fully connected layers. The key components include:
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
--Convolutional Layers: Extracts spatial features from images.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
--Max Pooling Layers: Reduces dimensionality while preserving important features.
+## Deploy on Vercel
 
--Fully Connected Layers: Classifies the extracted features into different hand gesture categories.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
--Activation Functions: Uses ReLU for hidden layers and Softmax for output classification.
-
-## Requirements
-
-To run this project, install the following dependencies:
-
-- pip install tensorflow numpy pandas matplotlib seaborn
-
-## Results
-
-The trained model achieves high accuracy in recognizing hand gestures. The results are visualized using confusion matrices and accuracy plots.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
